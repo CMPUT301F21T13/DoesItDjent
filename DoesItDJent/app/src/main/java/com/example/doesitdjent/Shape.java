@@ -3,17 +3,23 @@ package com.example.doesitdjent;
 abstract class Shape {
     private int x;
     private int y;
-    private String Color = "blue";
+    private String Color = "$PUT_YOUR_CHOICE_OF_COLOR";
+
 
     void Shape(int x, int y, String Color){
         this.x = x;
         this.y = y;
 	this.Color = Color;
+
     }
 
     void SetColor(String Color){
 	this.Color = Color;
     }
+
+   
+
+    
 
     void SetX(int x){
         this.x = x;
@@ -33,6 +39,6 @@ abstract class Shape {
         return this.x;
     }
 
-    String.GetColor(){
+    String GetColor(){
 	return this.Color;
 }
