@@ -5,35 +5,36 @@ abstract class Shape {
     private int y;
     private String Color = "$PUT_YOUR_CHOICE_OF_COLOR";
 
-    void Shape(int x, int y, String Color){
+    void Shape(int x, int y, String Color) {
         this.x = x;
         this.y = y;
-	this.Color = Color;
+        this.Color = Color;
     }
 
-    void SetColor(String Color){
-	this.Color = Color;}
+    void SetColor(String Color) {
+        this.Color = Color;
+    }
 
-    
 
-    void SetX(int x){
+    void SetX(int x) {
         this.x = x;
     }
 
 
-    void SetY(int y){
+    void SetY(int y) {
         this.y = y;
     }
 
 
-    int GetY(){
-       return this.y;
+    int GetY() {
+        return this.y;
     }
 
-    int GetX(){
+    int GetX() {
         return this.x;
     }
 
-    String GetColor(){
-	return this.Color;
+    String GetColor() {
+        return this.Color;
+    }
 }
