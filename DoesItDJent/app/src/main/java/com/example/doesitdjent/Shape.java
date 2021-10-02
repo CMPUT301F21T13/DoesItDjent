@@ -3,7 +3,7 @@ package com.example.doesitdjent;
 abstract class Shape {
     private int x;
     private int y;
-    private String Color = "$PUT_YOUR_CHOICE_OF_COLOR";
+    private String Color = "Orange";
 
     void Shape(int x, int y, String Color) {
         this.x = x;
